@@ -1,0 +1,29 @@
+@import '_reset.scss';
+
+$FOOTER_SIZE: 100px;
+
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+#notfooter {
+	min-height: 100%;
+	margin: 0 auto -$FOOTER_SIZE;
+}
+
+#pseudopod {
+	height: $FOOTER_SIZE;
+}
+
+#footer {
+	background-color: black;
+	position: relative;
+	z-index: 1;
+	height: $FOOTER_SIZE;
+	margin-top: -$FOOTER_SIZE;
+}

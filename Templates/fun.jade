@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Sticky feet
+		link(rel='stylesheet',href='fun.css')
+	body
+		#notfooter
+			// ***All content*** except the footer should go in #notfooter
+			#pseudopod
+				//
+					***Nothing*** should go inside #pseudopod or between it and #footer.
+					(Without #pseudopod, the bottom margin of the final element is able to push the footer down such that minimum page height is bigger than the screen. Also, without #pseudopod it's possible for the final element(s) to overlap the footer.)
+		footer#footer
