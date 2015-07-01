@@ -1,6 +1,8 @@
 # sticky-feet
 
-## Here's one way to have your footer behave "in the way that any sane person would obviously want it to". Viz:
+## Here's one way to have your footer behave "in the way that any sane person would obviously want it to"
+
+#### Namely:
 
 * If the non-footer content of your page is less than one screen high, the footer should be 'glued' to the bottom of the screen 
 
