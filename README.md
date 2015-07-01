@@ -1,6 +1,6 @@
 # sticky-feet
 
-## Here's one way to have your footer behave "in the way that any sane person would obviously want it to"
+## How to train your footer to behave "in the way that any sane person would obviously want it to"
 
 #### Namely:
 
